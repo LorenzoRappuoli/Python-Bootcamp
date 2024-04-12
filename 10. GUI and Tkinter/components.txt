@@ -1,0 +1,49 @@
+#from tkinter import *
+#
+#def button_pressed():
+#    print("button pressed")
+#    nt = inp.get()
+#    my_label.config(text=nt)
+#
+#window = Tk()
+#window.title("Prova")
+#window.minsize(1500, 500)
+#window.config(padx= 10, pady= 10) # aggiungo spazio bianco non sovrascrivibile
+#
+## Labels
+#my_label = Label(window, text="I AM A LABEL", font=("Arial", 5))
+##my_label.pack(side="left")
+#my_label.place(x = 200, y = 200)
+##my_label.grid(column = 1, row = 1)
+#
+## Entry
+#inp = Entry(window)
+#inp.pack(side="bottom")
+#
+## Button
+#button = Button(window, text="press me", command=button_pressed)
+#button.pack()
+#
+## Text box
+#text = Text(height=10, width=10)
+#text.focus()
+#text.pack()
+#
+## Spinbox
+#def sp():
+#    print(spinbox.get())
+#
+#
+#spinbox = Spinbox(from_=0, to=100, command=sp)
+#spinbox.pack(side = "right")
+#
+## Check buttons
+#
+#check_state = IntVar()
+#check_button = Checkbutton(text = "is on?", variable=check_state)
+#check_state.get()
+#check_button.pack()
+#
+#
+## Always in the bottom
+#mainloop()
