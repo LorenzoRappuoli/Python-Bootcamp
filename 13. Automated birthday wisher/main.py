@@ -5,7 +5,7 @@ import random as rd
 import os
 
 
-my_email = "lorenzo.rappuoli.bip.2@gmail.com"
+my_email = mail
 
 # 1. Update the birthdays.csv
 
@@ -48,14 +48,14 @@ for l in content:
                 connection.starttls()
                 connection.login(
                     user=my_email,
-                    password='mxds ydep xnoj rkmr'
+                    password=password
                 )
                 connection.sendmail(
                     from_addr=my_email,
-                    to_addrs='ilaria.faleschini@gmail.com',
+                    to_addrs= mail_user,
                     msg=
                     f"""
-                    Subject: messaggio auguri per topina
+                    Subject: messaggio auguri
                     {content_letter}
                     """
 
